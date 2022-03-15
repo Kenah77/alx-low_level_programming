@@ -1,4 +1,1 @@
-Function overview
-function anatomy
-function prototype
-function and array
+My taskes for 0x02-functions_nested_loops
