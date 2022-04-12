@@ -1,19 +1,20 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * print_line - Print line dependent on the integer n.
- * @n : The number of '_' characters to use
- * Return: Void.
+ * print_line -  checks for checks for a digit (0 through 9).
+ * @n: n -  Variable
+ * Return: Always 0.
  */
 void print_line(int n)
 {
-	int i;
+	int x;
 
-	for (i = 0; i < n; i++)
+	if (n > 0)
 	{
-		_putchar('_');
+		for (x = 1; x <= n; x++)
+		{
+			_putchar(95);
+		}
 	}
 	_putchar('\n');
 }
-
